@@ -1,0 +1,54 @@
+.blue {
+	background-color: #3498db;
+}
+
+.red {
+	background-color: #e74c3c;
+}
+
+.green {
+	background-color: #2ecc71
+}
+
+p {
+	color: #fafafa;
+	font-family: poppins, sans-serif;
+	font-size: 50 px;
+	text-align: center;
+}
+
+.container {
+	width:50%;
+	margin: 50 px;
+	max-width: 1200px;
+	align-content: center;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.col-6 {
+	float: left;
+	width: 50%;
+}
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: #fafafa;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-family: Poppins;
+}
+
+.btn:hover {background-color: #fafafa;
+color: #f4511e;}
+
+.btn:after {background-color: #f4511e;
+color: #fafafa; }
